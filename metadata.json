@@ -1,0 +1,6 @@
+{
+  "name": "MYDMS - Meet Your Designer Management System",
+  "description": "Meet Your Designer Management System (MYDMS) - A professional collaborative platform connecting clients and creative designers with project bidding, portfolio showcases, real-time messaging, M-Pesa payments, and admin governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

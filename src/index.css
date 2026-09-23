@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-primary: #0f244a;
+    --navy-deep: #09172e;
+    --navy-light: #1e3a8a;
+    --navy-tint: #f0f4f9;
+  }
+}
