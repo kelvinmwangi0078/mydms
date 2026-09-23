@@ -233,7 +233,7 @@ export const Navbar: React.FC = () => {
                   >
                     <Shield className="w-4 h-4 text-blue-900" />
                     <div>
-                      <div className="font-semibold">Victor Musau (Admin)</div>
+                      <div className="font-semibold"> (Admin)</div>
                       <div className="text-[11px] text-slate-500">M-Pesa auditing & moderation</div>
                     </div>
                   </button>

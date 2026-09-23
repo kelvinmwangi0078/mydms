@@ -249,7 +249,7 @@ export const AuthModal: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => {
-                      setEmail('kelvinmwangi0078@gmail.com');
+                      setEmail('');
                       setPassword('password123');
                     }}
                     className="px-2 py-0.5 bg-slate-100 hover:bg-slate-200 rounded text-slate-700"
@@ -306,7 +306,7 @@ export const AuthModal: React.FC = () => {
                   <input
                     type="text"
                     required
-                    placeholder="e.g. Kelvin Mwangi Wambui"
+                    placeholder=" "
                     value={fullName}
                     onChange={(e) => setFullName(e.target.value)}
                     className="w-full pl-9 pr-3 py-2 text-xs border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"

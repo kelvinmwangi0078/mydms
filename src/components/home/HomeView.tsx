@@ -52,7 +52,7 @@ export const HomeView: React.FC = () => {
         'Verified digital designers review open project briefs on the Marketplace and submit tailored proposals with competitive quotes, proposed turnaround times, and links to verified portfolio case studies.',
       highlight: 'Zero bidding spam; transparent ratings and verified badges.',
       preview: {
-        designerName: 'Kelvin Mwangi Wambui',
+        designerName: '',
         rating: '5.0 \u2605 (18 Reviews)',
         bidAmount: 'KES 75,000',
         turnaround: '10 Days',
