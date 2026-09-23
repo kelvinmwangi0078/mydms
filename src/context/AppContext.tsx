@@ -154,7 +154,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       id: 'notif-2',
       recipientId: 'all',
       title: 'System Notice',
-      message: 'Welcome to Meet Your Designer Management System (MYDMS) by Kelvin Mwangi Wambui.',
+      message: 'Welcome to Meet Your Designer Management System (MYDMS) .',
       timestamp: '2026-03-23 08:00',
       type: 'info',
       read: true,
