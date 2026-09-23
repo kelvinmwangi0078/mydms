@@ -137,11 +137,7 @@ export const Navbar: React.FC = () => {
               onClick={() => setShowRoleDropdown(!showRoleDropdown)}
               className="flex items-center gap-2 px-2.5 py-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 transition-colors text-left"
             >
-              <img
-                src={currentUser.avatarUrl || ''}
-                alt={currentUser.fullName}
-                className="w-7 h-7 rounded-md object-cover ring-1 ring-slate-200"
-              />
+              <div className="w-7 h-7 rounded-md bg-slate-600" />
               <div className="hidden sm:block text-left pr-1">
                 <div className="text-xs font-semibold text-slate-900 leading-tight truncate max-w-[120px]">
                   {currentUser.fullName}
