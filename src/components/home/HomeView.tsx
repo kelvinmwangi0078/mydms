@@ -8,7 +8,6 @@ import {
   CheckCircle2,
   ArrowRight,
   Zap,
-  MessageSquare,
   Lock,
   ChevronRight,
   LogIn,
@@ -54,7 +53,7 @@ export const HomeView: React.FC = () => {
       highlight: 'Zero bidding spam; transparent ratings and verified badges.',
       preview: {
         designerName: 'Kelvin Mwangi Wambui',
-        rating: '5.0 ★ (18 Reviews)',
+        rating: '5.0 \u2605 (18 Reviews)',
         bidAmount: 'KES 75,000',
         turnaround: '10 Days',
         pitch: 'Specialized in scalable fintech design tokens and mobile design systems with 100% on-time delivery record.',
@@ -66,13 +65,13 @@ export const HomeView: React.FC = () => {
       actor: 'Client & Safaricom',
       badgeColor: 'bg-blue-100 text-blue-900 border-blue-200',
       description:
-        'The client accepts the preferred designer proposal. The system triggers Safaricom Daraja STK push to the client's handset (+254 7XX). Funds are locked into secure platform escrow before work commences.',
+        'The client accepts the preferred designer proposal. The system triggers Safaricom Daraja STK push to the client\'s handset (+254 7XX). Funds are locked into secure platform escrow before work commences.',
       highlight: 'Funds guaranteed in escrow; protected from non-delivery or non-payment.',
       preview: {
         gateway: 'Safaricom Daraja 2.0 Lipa Na M-Pesa Online',
         shortcode: '174379 (Escrow Pool)',
         stkPrompt: 'Enter M-Pesa PIN on phone to reserve KES 75,000 in escrow',
-        status: 'Status: Escrow Locked (Project State → Active)',
+        status: 'Status: Escrow Locked (Project State \u2192 Active)',
       },
     },
     {
@@ -84,7 +83,7 @@ export const HomeView: React.FC = () => {
         'The matched designer and client communicate directly through real-time encrypted messaging. Once completed, the designer uploads high-resolution production assets and version release notes.',
       highlight: 'Direct channel messaging + complete deliverable asset archiving.',
       preview: {
-        channel: 'Direct Messaging Workspace: Sarah Wanjiku ↔ Kelvin Mwangi',
+        channel: 'Direct Messaging Workspace: Sarah Wanjiku \u2194 Kelvin Mwangi',
         fileSubmitted: 'fintech-design-system-v2.0-final.zip (148.2 MB)',
         notes: 'Includes Figma tokens, dark/light variants, and vector SVG iconography.',
       },
@@ -95,12 +94,12 @@ export const HomeView: React.FC = () => {
       actor: 'Client & Admin',
       badgeColor: 'bg-amber-100 text-amber-900 border-amber-200',
       description:
-        'The client inspects and approves the submitted artwork deliverables. The escrow contract immediately releases the full milestone payment directly to the designer's M-Pesa phone, and a 5-star review is published.',
+        'The client inspects and approves the submitted artwork deliverables. The escrow contract immediately releases the full milestone payment directly to the designer\'s M-Pesa phone, and a 5-star review is published.',
       highlight: 'Zero withdrawal delays; instant mobile money receipt with 0% foreign exchange loss.',
       preview: {
         receiptNumber: 'QKD710928M (Safaricom Daraja Confirmed)',
         disbursement: 'KES 75,000 sent to +254 712 345 678',
-        review: '5.0 ★ "Exceptional design quality and lightning fast delivery!"',
+        review: '5.0 \u2605 "Exceptional design quality and lightning fast delivery!"',
       },
     },
   ];
@@ -438,7 +437,7 @@ export const HomeView: React.FC = () => {
                       <div key={key} className="flex flex-col sm:flex-row sm:items-start gap-1">
                         <span className="text-slate-400 capitalize w-28 shrink-0">{key}:</span>
                         <span className="text-slate-100 font-semibold break-words">
-                          {Array.isArray(value) ? value.join(' • ') : String(value)}
+                          {Array.isArray(value) ? value.join(' \u2022 ') : String(value)}
                         </span>
                       </div>
                     ))}
@@ -463,7 +462,7 @@ export const HomeView: React.FC = () => {
             </div>
             <h4 className="font-bold text-slate-900 text-base">Daraja 2.0 Lipa Na M-Pesa</h4>
             <p className="text-slate-500 leading-relaxed text-xs">
-              Real-time STK push prompts with sub-4-second callback verification. Built natively for Kenya's mobile economy with 0% FX loss.
+              Real-time STK push prompts with sub-4-second callback verification. Built natively for Kenya&apos;s mobile economy with 0% FX loss.
             </p>
           </div>
           <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-2">

@@ -9,7 +9,6 @@ import { ClientDashboard } from './components/client/ClientDashboard';
 import { DesignerDashboard } from './components/designer/DesignerDashboard';
 import { AdminDashboard } from './components/admin/AdminDashboard';
 import { MessagesView } from './components/messages/MessagesView';
-import { TestRunnerView } from './components/tests/TestRunnerModal';
 import { TechStackExplorer } from './components/architecture/TechStackExplorer';
 import { MpesaPaymentModal } from './components/payments/MpesaPaymentModal';
 import { PostProjectModal } from './components/client/PostProjectModal';
@@ -40,12 +39,9 @@ const AppContent: React.FC = () => {
           </div>
         )}
         {currentView === 'messages' && <MessagesView />}
-        {currentView === 'documentation' && <DocumentationView />}
         {currentView === 'tech_stack' && <TechStackExplorer />}
-        {currentView === 'test_runner' && <TestRunnerView />}
       </main>
 
-      {/* Global Interactive Modals */}
       <MpesaPaymentModal />
       <PostProjectModal />
       <SubmitBidModal />
