@@ -137,7 +137,22 @@ export const HomeView: React.FC = () => {
 
             {/* Quick Action CTAs */}
             <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            
+              <button
+                onClick={() => openAuthModal('client', 'register')}
+                className="px-6 py-3.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-blue-900/30 transition-all flex items-center justify-center gap-2 group cursor-pointer"
+              >
+                <Briefcase className="w-4 h-4" />
+                <span>Get Started as Client</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
+
+              <button
+                onClick={() => openAuthModal('designer', 'register')}
+                className="px-6 py-3.5 bg-slate-800 hover:bg-slate-700 text-white rounded-xl font-bold text-sm border border-slate-700 transition-all flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <Palette className="w-4 h-4 text-blue-400" />
+                <span>Get Started as Designer</span>
+              </button>
 
               <button
                 onClick={() => {

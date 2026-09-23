@@ -138,7 +138,7 @@ export const Navbar: React.FC = () => {
               className="flex items-center gap-2 px-2.5 py-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 transition-colors text-left"
             >
               <img
-                src={currentUser.avatarUrl || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80'}
+                src={currentUser.avatarUrl || ''}
                 alt={currentUser.fullName}
                 className="w-7 h-7 rounded-md object-cover ring-1 ring-slate-200"
               />
