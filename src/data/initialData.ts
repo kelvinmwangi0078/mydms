@@ -152,7 +152,7 @@ export const INITIAL_DESIGNERS: DesignerUser[] = [
 export const INITIAL_ADMINS: AdminUser[] = [
   {
     id: 'admin-1',
-    fullName: 'John doe',
+    fullName: 'John Doe',
     email: 'admin@mydms.co.ke',
     phone: '+254700112233',
     role: 'admin',
